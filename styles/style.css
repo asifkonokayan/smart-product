@@ -17,3 +17,85 @@
     padding: 20px 40px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   }
+  .logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(120deg, #6f42c1, #8e44ad);
+    color: white;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: white;
+    color: #6f42c1;
+    font-weight: bold;
+    border-radius: 25px;
+    text-decoration: none;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 20px;
+    background-color: #fff;
+  }
+  
+  .feature-box {
+    width: 30%;
+    text-align: center;
+  }
+  
+  .pricing {
+    background-color: #f0f0f0;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .pricing-cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+  }
+  
+  .card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .card ul {
+    list-style: none;
+    padding: 10px 0;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    margin-top: 50px;
+  }
